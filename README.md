@@ -1,29 +1,45 @@
 ![Nube de Palabras](nube%20de%20palabras.png)
 
+# Machine Learning Operations (MLOps)
+## Contexto:
+Hemos logrado desarrollar un modelo de recomendación que abarca todas las etapas fundamentales del proceso de Data Engineering, Análisis Exploratorio de Datos (EDA) y entrenamiento del modelo. Para ello, recibimos tres datasets en formato JSON, los cuales leímos y transformamo para poder alcanzar un MVP (Producto Mínimo Viable).
 
-Este es un proyecto de aprendizaje automático que utiliza FastAPI, pandas, scikit-learn y otras bibliotecas para realizar análisis de datos y predicciones.
+Transformación y Procesamiento de Datos
+A continuación, se describen las funciones que implementamos para interactuar con los datos procesados:
 
-## Instalación
+### Función developer
 
-Para instalar las dependencias del proyecto, ejecuta el siguiente comando:
+""
+    Cantidad de items y porcentaje de contenido Free por año según empresa desarrolladora.
+    """
+### Función userdata
 
-```bash
-pip install -r requirements.txt
+"""
+    Devuelve la cantidad de dinero gastado por el usuario, el porcentaje de recomendación 
+    en base a reviews.recommend y la cantidad de items.
+    """
 
-Para instalar las dependencias del proyecto, ejecuta el siguiente comando:
-txt
-Uso
-Para iniciar la aplicación, ejecuta el siguiente comando:
+### Función UserForGenre
 
-uvicorn main:app --host 0.0.0.0 --port 80
+"""
+    Devuelve el usuario que acumula más horas jugadas para el género dado y una lista de 
+    la acumulación de horas jugadas por año de lanzamiento.
+    """
 
-80
-Funcionalidades
-Análisis exploratorio de datos en un Jupyter Notebook.
-Creación de una nube de palabras a partir de los títulos de los juegos.
-Predicciones utilizando un modelo de aprendizaje automático.
-Despliegue
-El proyecto se despliega en Render. Para iniciar un nuevo despliegue, ve al panel de control de Render y haz clic en "Redeploy".
+ ## Análisis Exploratorio de Datos (EDA)
+Realizamos un EDA exhaustivo para analizar las distintas variables entre los datasets, complementándolo con gráficos que permiten una mejor visualización de los datos.
+
+## Modelo de Recomendación User-Item
+Implementamos un modelo de recomendación basado en la relación usuario-item. La función principal para realizar recomendaciones es:
+
+   """
+    Ingresando el id de un usuario, devuelve una lista con 5 juegos recomendados para dicho usuario.
+    """
+
+## Implementación y Despliegue
+Toda la funcionalidad ha sido renderizada utilizando FastAPI y desplegada en RENDER. Puedes visualizar el despliegue final del trabajo en el siguiente enlace:
+
+[Documentación del Deployment](https://ml-1-icy1.onrender.com/docs#/default/user_for_genre_userforgenre_get)
 
 Contribuciones
 Las contribuciones son bienvenidas. Por favor, abre un issue para discutir lo que te gustaría cambiar.
