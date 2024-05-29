@@ -1,4 +1,4 @@
-![Nube de palabras](imagenes/imagen.png)
+![Nube de palabras](nube de palabras.png)
 
 
 Este es un proyecto de aprendizaje automático que utiliza FastAPI, pandas, scikit-learn y otras bibliotecas para realizar análisis de datos y predicciones.
