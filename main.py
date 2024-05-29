@@ -13,9 +13,9 @@ app = FastAPI(title='Luis Cerelli - DTFT22')
 
 
 # Cargar los DataFrames desde archivos Parquet
-df_1_steam_games = pd.read_parquet('/Users/luisalbertocerelli/Desktop/00-Todo/Data_Science/01-Full_Time/TI_1/Datasets_para_Render/steam_games.parquet')
-df_user_reviews = pd.read_parquet('/Users/luisalbertocerelli/Desktop/00-Todo/Data_Science/01-Full_Time/TI_1/Datasets_para_Render/user_reviews.parquet')
-df_user_items = pd.read_parquet('/Users/luisalbertocerelli/Desktop/00-Todo/Data_Science/01-Full_Time/TI_1/Datasets_para_Render/users_items.parquet')
+df_1_steam_games = pd.read_parquet('Datasets_para_Render/steam_games.parquet')
+df_user_reviews = pd.read_parquet('Datasets_para_Render/user_reviews.parquet')
+df_user_items = pd.read_parquet('Datasets_para_Render/users_items.parquet')
 
 # Convertir 'release_date' a datetime y extraer el año
 df_1_steam_games['release_date'] = pd.to_datetime(df_1_steam_games['release_date'], format='%Y-%m-%d', errors='coerce')
