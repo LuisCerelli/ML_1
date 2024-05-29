@@ -3,5 +3,3 @@ uvicorn
 pandas
 scikit-learn
 pyarrow
-json
-ast
