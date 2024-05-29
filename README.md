@@ -1,6 +1,6 @@
 # Machine Learning Operations (MLOps)
 
-![Nube de Palabras](1704994327715.png)
+![MLOps](1704994327715.png)
 
 
 ## Contexto:
@@ -30,6 +30,8 @@ A continuación, se describen las funciones que implementamos para interactuar c
 
  ## Análisis Exploratorio de Datos (EDA)
 Realizamos un EDA exhaustivo para analizar las distintas variables entre los datasets, complementándolo con gráficos que permiten una mejor visualización de los datos.
+
+![Nube de palabras](nube%20de%20palabras.png)
 
 ## Modelo de Recomendación User-Item
 Implementamos un modelo de recomendación basado en la relación usuario-item. La función principal para realizar recomendaciones es:
