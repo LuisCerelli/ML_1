@@ -1,6 +1,6 @@
 # Machine Learning Operations (MLOps)
 
-![Nube de Palabras](nube%20de%20palabras.png)
+![Nube de Palabras](1704994327715.png)
 
 
 ## Contexto:
