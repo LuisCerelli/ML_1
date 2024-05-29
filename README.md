@@ -29,9 +29,14 @@ A continuación, se describen las funciones que implementamos para interactuar c
     """
 
  ## Análisis Exploratorio de Datos (EDA)
-Realizamos un EDA exhaustivo para analizar las distintas variables entre los datasets, complementándolo con gráficos que permiten una mejor visualización de los datos.
+Realizamos un EDA para analizar las distintas variables entre los datasets, complementándolo con gráficos que permiten una mejor visualización de los datos, a continuación uno de los ejemplos, mas ejemplos en [Análisis Exploratorio de Datos: EDA.ipynb](EDA.ipynb)
 
 ![Nube de palabras](nube%20de%20palabras.png)
+
+#### Análisis de la Gráfica
+Frecuencia de Palabras: Las palabras más grandes en la nube representan las palabras más frecuentemente usadas en los títulos de los juegos. Por ejemplo, "Pack", "DLC", "Soundtrack", y "Edition" son algunas de las palabras más prominentes, lo que indica que estos términos aparecen con frecuencia en los títulos de los juegos del dataset.
+Variedad de Términos: La nube de palabras también muestra una variedad de términos relacionados con los juegos, como "Simulator", "Train", "Game", "Add", "Steam", entre otros.
+Esta gráfica es útil para obtener una visión rápida de las palabras más comunes en los títulos de los juegos, lo que puede ayudar a identificar tendencias y patrones en los nombres de los juegos en el dataset.
 
 ## Modelo de Recomendación User-Item
 Implementamos un modelo de recomendación basado en la relación usuario-item. La función principal para realizar recomendaciones es:
