@@ -1,6 +1,8 @@
+# Machine Learning Operations (MLOps)
+
 ![Nube de Palabras](nube%20de%20palabras.png)
 
-# Machine Learning Operations (MLOps)
+
 ## Contexto:
 Hemos logrado desarrollar un modelo de recomendación que abarca todas las etapas fundamentales del proceso de Data Engineering, Análisis Exploratorio de Datos (EDA) y entrenamiento del modelo. Para ello, recibimos tres datasets en formato JSON, los cuales leímos y transformamo para poder alcanzar un MVP (Producto Mínimo Viable).
 
