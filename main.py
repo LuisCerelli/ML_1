@@ -217,7 +217,7 @@ model_knn = NearestNeighbors(metric='cosine', algorithm='brute')
 model_knn.fit(user_game_matrix)
 
 
-#@app.get("/recomendacion_usuario/{user_id}")
+
 
 @app.get("/recomendacion_usuario/")
 async def recomendacion_usuario(user_id: str = Query('DeEggMeister')):
@@ -233,6 +233,9 @@ async def recomendacion_usuario(user_id: str = Query('DeEggMeister')):
     game_names = df_user_items[df_user_items['item_id'].isin(recommendations)]['item_name'].tolist()
     
     return {"Juegos similares que te pueden interesar a ti " + user_id: game_names}
+
+
+
 
 
 if __name__ == "__main__":
