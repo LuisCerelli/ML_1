@@ -60,6 +60,9 @@ Implementamos un modelo de recomendación basado en la relación usuario-item. L
    """
     Ingresando el id de un usuario, devuelve una lista con 5 juegos recomendados para dicho usuario.
     """
+### Las funciones como los modelos se pueden observar en: main.py [Enlace](main.py)
+No hemos colocamos los ipybn originales para no ser redundantes.
+
 
 ## Implementación y Despliegue
 Toda la funcionalidad ha sido renderizada utilizando FastAPI y desplegada en RENDER. Puedes visualizar el despliegue final del trabajo en el siguiente enlace:
